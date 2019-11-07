@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="match_parent"
+                                   android:layout_height="match_parent"
+                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                   app:cardCornerRadius="20dp"
+                                   android:padding="20dp"
+                                   app:cardElevation="20dp"
+                                   android:textAlignment="center"
+                                   xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout android:layout_width="wrap_content"
+                    android:padding="20dp"
+                    android:layout_height="wrap_content">
+
+        <TextView
+                android:id="@+id/textProductName"
+                android:layout_width="match_parent"
+                android:text="Jacket"
+                android:textSize="15sp"
+                android:gravity="center"
+                android:layout_height="wrap_content"/>
+
+        <ImageView android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/textProductName"
+                   android:src="@drawable/jacket2"
+                   android:id="@+id/jacket1"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="KES 500"
+                  android:id="@+id/amount"
+                  android:textStyle="bold"
+                  android:layout_below="@+id/jacket1"
+                  android:layout_centerHorizontal="true"
+                  android:layout_marginTop="20dp"
+                  android:textSize="20dp"/>
+
+        <Button
+                android:id="@+id/add_to_cart"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/amount"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:text="Add to cart"
+                android:background="@drawable/buttons_backgrond"
+                android:textColor="@color/white"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

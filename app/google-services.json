@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "237039499603",
+    "firebase_url": "https://kecommerce-47eb4.firebaseio.com",
+    "project_id": "kecommerce-47eb4",
+    "storage_bucket": "kecommerce-47eb4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:237039499603:android:67b1956a0b417c62",
+        "android_client_info": {
+          "package_name": "com.example.kecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "237039499603-67hintn1o2munefan1i671mvtfbbfind.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kecommerce",
+            "certificate_hash": "3999733f9c3ebd09cbae5a518e3c2cf2915daf4c"
+          }
+        },
+        {
+          "client_id": "237039499603-fqlih6e3njajdarkevaadhu2bei3rbek.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfjLvv37qK7E-dSPONVOyGbVFRUFcXz-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "237039499603-fqlih6e3njajdarkevaadhu2bei3rbek.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
